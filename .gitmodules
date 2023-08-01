@@ -1,0 +1,6 @@
+[submodule "ALPypeRL"]
+	path = ALPypeRL
+	url = https://github.com/MarcEscandell/ALPypeRL.git
+[submodule "ALPypeOpt"]
+	path = ALPypeOpt
+	url = https://github.com/MarcEscandell/ALPypeOpt.git
