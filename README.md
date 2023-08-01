@@ -2,9 +2,9 @@
 
 **ALPype** or _AnyLogic Python Pipe_ is an open source library for connecting **AnyLogic** simulation models with python-based **sequential optimization** packages such as `scikit-optimize`, `optuna` , `hyperopt` and `bayesian optmization` AND **reinforcement learning** frameworks that are compatible with _OpenAI Gymnasium_ interface (single agent).
 
-![ALPypeRL GIF](ALPypeRL/resources/images/alpyperl_gif.gif)
+![ALPypeRL GIF](resources/images/alpyperl_gif.gif)
 
-![ALPypeOpt example](ALPypeOpt/resources/images/alpypeopt_gpp_example.png)
+![ALPypeOpt example](resources/images/alpypeopt_gpp_example.png)
 
 With **ALPype** you will be able to:
 
