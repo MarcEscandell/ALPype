@@ -5,4 +5,4 @@ Welcome to **ALPype** documentation!
 
 * `ALPypeRL <https://alpyperl.readthedocs.io/en/latest/>`_ is a connector for **reinforcement learning** frameworks that are compatible with the *OpenAI Gymnasium* interface (single agent). Find more details at the oficial `documentation <https://alpyperl.readthedocs.io/en/latest/>`_.
 
-* `ALPypeOpt <https://alpypeopt.readthedocs.io/en/latest/>`_ is a connector for **sequential model-based optimization** packages such as `scikit-optimize`, `optuna` , `hyperopt` and `bayesian optmization`. Refer to the `documentation <https://alpypeopt.readthedocs.io/en/latest/>`_ to learn more about this project.
+* `ALPypeOpt <https://alpypeopt.readthedocs.io/en/latest/>`_ is a connector for **sequential optimization** packages such as `scikit-optimize`, `optuna` , `hyperopt` and `bayesian optmization`. Refer to the `documentation <https://alpypeopt.readthedocs.io/en/latest/>`_ to learn more about this project.

@@ -1,8 +1,16 @@
 # ALPype
 
-**ALPype** or _AnyLogic Python Pipe_ is an open source library for connecting **AnyLogic** simulation models with python-based **sequential optimization** packages such as `scikit-optimize`, `optuna` , `hyperopt` and `bayesian optmization` AND **reinforcement learning** frameworks that are compatible with _OpenAI Gymnasium_ interface (single agent).
+**ALPype** or _AnyLogic Python Pipe_ is an open source library for connecting **AnyLogic** simulation models with **python**-based experiments. This project primarily encompasses two major areas:
+
+#### ALPypeRL
+
+[ALPypeRL](https://alpyperl.readthedocs.io/en/latest/) is a connector for **reinforcement learning** frameworks that are compatible with the OpenAI Gymnasium interface (single agent). Find more details at the oficial [documentation](https://alpyperl.readthedocs.io/en/latest/).
 
 ![ALPypeRL GIF](resources/images/alpyperl_gif.gif)
+
+#### ALPypeOpt
+
+[ALPypeOpt](https://alpypeopt.readthedocs.io/en/latest/) is a connector for **sequential optimization** packages such as `scikit-optimize`, `optuna` , `hyperopt` and `bayesian optmization`. Refer to the [documentation](https://alpypeopt.readthedocs.io/en/latest/) to learn more about this project.
 
 ![ALPypeOpt example](resources/images/alpypeopt_gpp_example.png)
 
@@ -21,14 +29,21 @@ There is a more comprehensive [documentation](https://alpype.readthedocs.io/en/l
 
 _ALPype_ includes 2 environments that make the connection between _AnyLogic_ and your _python script_ possible:
 
-* [ALPypeOptConnector](https://alpypeopt.readthedocs.io/en/latest/AnyLogicConnector.html) OR [ALPypeRLConnector](https://alpyperl.readthedocs.io/en/latest/AnyLogicConnector.html) - The AnyLogic connector ('agent') library to be dropped into your simulation model. You can add the [library](https://github.com/MarcEscandell/ALPype/tree/main/bin) to your _Palette_. That will allow you to drag and drop the connector into your model. _Note that further [instructions](https://alpype.readthedocs.io/en/latest/AnyLogicConnector.html) are required to be followed in order for the connector to work_.
-* [alpypeopt](https://alpypeopt.readthedocs.io/en/latest/GasProcessingPlant.html) OR [alpyperl](https://alpyperl.readthedocs.io/en/latest/CartPoleV0.html) - The library that you will use after configuring your _optimization solver_ in your python script to connect to the AnyLogic model. To install the base **ALPypeOpt** OR **ALPypeRL** library in python, use `pip install alpypeopt` OR `pip install alpyperl`.
+* The **AnyLogic connector** ('agent') to be dropped into your simulation model. You can add the [library](https://github.com/MarcEscandell/ALPype/tree/main/bin) to your _Palette_. That will allow you to drag and drop the connector into your model. _Note that further [instructions](https://alpype.readthedocs.io/en/latest/AnyLogicConnector.html) are required to be followed in order for the connector to work_.
 
-![ALPype Library](ALPypeRL/resources/images/alpypeopt_library.png)
+  * [ALPypeOptConnector](https://alpypeopt.readthedocs.io/en/latest/AnyLogicConnector.html)
+  * [ALPypeRLConnector](https://alpyperl.readthedocs.io/en/latest/AnyLogicConnector.html)
+
+![ALPype Library](resources/images/alpype_library.png)
+
+* The library that you will use to create a connection from the **python** side to the AnyLogic model, also offering multiple configuration options.
+
+  * [alpypeopt](https://alpypeopt.readthedocs.io/en/latest/GasProcessingPlant.html). Run `pip install alpypeopt` to get access.
+  * [alpyperl](https://alpyperl.readthedocs.io/en/latest/CartPoleV0.html). Use `pip install alpyperl` in this case.
 
 ## Bugs and/or development roadmap
 
-At the moment, ALPypeOpt is at its earliest stage. You can join the [alpype project](https://github.com/MarcEscandell/ALPypeRL/discussions) and raise bugs, feature requests or submit code enhancements via pull request.
+At the moment, *ALPype* is at its earliest stage. You can join the [alpype project](https://github.com/MarcEscandell/ALPype/discussions) and raise bugs, feature requests or submit code enhancements via pull request.
 
 ## Support ALPype's development
 
